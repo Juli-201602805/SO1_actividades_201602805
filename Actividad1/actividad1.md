@@ -1,6 +1,6 @@
 * María Julissa García Morán - 201602805
 
-## Persona 1
+ ```## Persona 1 ```
 ### Sistemas Operativos:
 Es un software que contiene todas las aplicaciones de una computadora.
 
@@ -11,7 +11,7 @@ Se conforma de un conjunto de información que es almacenada en un algún tipo d
 Es un identificador único que identifica a cualquier dispositivo que se conecta a Internet.
 
 
-## Persona 2
+ ```## Persona 2 ```
 ### Sistemas Operativos:
 Es un software o un programa que permite el funcionamiento de los programas que posee una computadora.
 
