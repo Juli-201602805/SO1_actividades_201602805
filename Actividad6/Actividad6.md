@@ -34,4 +34,6 @@ int main(){
 ```
 ## Problema 3:
 * 1. ¿Cuántos procesos únicos son creados?
+  **R/** Se crean dos procesos: 1 Proceso padre y 1 Proceso hijo.
 * 2. ¿Cuántos hilos únicos son creados?
+  **R/** Se cre un hilo único en el proceso padre.
