@@ -10,26 +10,26 @@
 ### Desplegar un contenedor de algun web server, apache o nginx por ejemplo, en el Cluster de K8s Local.
 **Pasos:**
 * Crear un objeto Deployment en Kubernetes
-  ``
+  ```
   kubectl create deployment nginx --image=nginx
-  ``
+  ```
 * Verificar que el Deployment se haya creado correctamente y que el pod de Nginx esté corriendo
-  ``
+  ```
   kubectl get deployments
   kubectl get pods
-  ``
+  ```
 * Exponer el servicio de Nginx
-  ``
+  ```
   kubectl expose deployment nginx --type=NodePort --port=800
-  ``
+  ```
 * Obtener la URL de acceso
-  ``
+  ```
   kubectl get svc nginx
-  ``
+  ```
 * Acceder a la URL proporcionada
-  ``
+  ```
   http://34.132.146.200
-  ``
+  ```
 ![Nginx](Nginx.png)
 
 ### Contestar a siguiente pregunta.¿En un ambiente local de Kubernetes existen los nodos masters y workers, como es que esto funciona?
